@@ -12,7 +12,7 @@ app.get("/", (req, res) => {
   // res.send("Hello World!");
 });
 
-app.set("view engine", "pug");
+// app.set("view engine", "pug");
 app.use(express.json());
 app.use("/api", apiRoute);
 
